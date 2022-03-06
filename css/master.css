@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: rgb(218, 228, 238);
+}
+
+body {
+	font-family: 'League Spartan', sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid #353536;
+    background-color: #ffffff;
+}
+body p {
+    padding-top: 15px;
+    padding-bottom: 50px;
+
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid #504f4f;
+	background-image: linear-gradient(
+	40deg, #f0eeec 0%, #4dace480 30%, white 50%, #f5f5f5 70%, #1f7691 100%);
+}
+header h1 {
+	font-size: 300%;
+	color: #b6b6b6fb;
+    padding-bottom: 20px;
+}
+header h2{
+	font-size: 130%;
+	font-style: italic;
+    padding-bottom: 30px;
+	padding-top: 30px;
+	border-style: hidden;
+}
+header img {
+	float: left;
+	padding: 0px 30px 0px 20px;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #9e3737;
+}
+
+section {
+	width: 525px;
+	float: right;
+	padding: 0 20px 20px 20px;
+}
+
+section h1 {
+	font-size: 150%;
+	padding: .5em 0 .25em 0;
+	margin: 0;
+}
+
+section ul {
+	padding: 0 0 .25em 1.25em;
+}
+section li {
+	padding-bottom: .35em;
+}
+
+
+article {
+	padding: .5em 0;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+}
+article h3{
+    font-weight: bolder;
+    color: rgba(151, 55, 21, 0.486);
+	margin-top: 20px;
+}
+
+article p{
+	color: rgb(218, 18, 18);
+	font-weight: bolder;
+}
+
+aside {
+	width: 215px;
+	float: right;
+	padding: 0 0 20px 20px;
+}
+aside h2 {
+	color: #525470bb;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+aside img{
+    padding-top: .5em;
+}
+article {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+nav img {
+    float: left;
+}
+nav {
+    padding-top: 20px;
+}
+nav h3{
+    font-style:italic;
+    color: #9e3737;
+}
+
+
+footer {
+	background-color: #333333;
+	clear: both;
+
+}
+footer p {
+	text-align: right;
+	color: white;
+	padding: 1em 0;
+}
+
+    
